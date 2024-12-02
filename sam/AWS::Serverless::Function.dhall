@@ -1,5 +1,6 @@
 { Properties = ./AWS::Serverless::Function/Properties.dhall
 , Resources = ./AWS::Serverless::Function/Resources.dhall
+, Policy = ./AWS::Serverless::Function/Policy.dhall
 , AlexaSkillEvent = ./AWS::Serverless::Function/AlexaSkillEvent.dhall
 , ApiEvent = ./AWS::Serverless::Function/ApiEvent.dhall
 , Auth = ./AWS::Serverless::Function/Auth.dhall

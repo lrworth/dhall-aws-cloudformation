@@ -1,5 +1,6 @@
 { Properties = ./AWS::Serverless::StateMachine/Properties.dhall
 , Resources = ./AWS::Serverless::StateMachine/Resources.dhall
+, Policy = ./AWS::Serverless::StateMachine/Policy.dhall
 , ApiEvent = ./AWS::Serverless::StateMachine/ApiEvent.dhall
 , CloudWatchEventEvent =
     ./AWS::Serverless::StateMachine/CloudWatchEventEvent.dhall
